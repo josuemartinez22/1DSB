@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manejo Estilo Importado</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        @import url("estilo.css");
+        /* Estilos de Etiqueta */
+body {
+    margin: 10px;
+    padding: 0px;
+    text-align: left;
+    font-family: tahoma;
+    font-size: 12px;
+    color: black;
+    line-height: 14px;
+}
+
+section {
+    width: 300px;
+}
+
+a {
+    text-decoration: underline;
+    color: #519FC3;
+}
+
+/* Estilos de Identificación */
+#marco1 {
+    background: url(images/bg5.jpg) bottom left no-repeat;
+    margin: 12px 10px 15px 19px;
+}
+
+#marco2 {
+    margin: 14px 0px 0px 90px;
+}
+
+/* Estilos de Clase */
+.linea {
+    width: 250px;
+    height: 1px;
+    display: block;
+}
+
+.link {
+    float: right;
+}
+
+.imagen-pequeña {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<section id="marco1">
+    <section id="marco2">
+        <strong>La Amistad</strong><br>
+        Los amigos son compañeros de viaje que nos ayudan a avanzar por el camino de una vida más feliz. <br>
+
+        <!-- Imagen pequeña -->
+        <img src="imagenes/niña.jpg" class="imagen-pequeña"><br>
+
+        <!-- Línea decorativa -->
+        <img src="images/l.gif" class="linea"><br><br>
+
+        <strong>Más que amistad</strong><br>
+        La amistad es más difícil y más rara que el amor. Por eso, hay que salvarla como sea.<br><br>
+        <strong><a href="#" class="link">Leer más...!!</a></strong>
+    </section>
+</section>
+
+</body>
+</html>
